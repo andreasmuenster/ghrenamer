@@ -2,7 +2,7 @@
 # GHRenamer - Github Renamer
 # --------------------------------------------------------------------
 # Tool to rename repositories from Github to customer-namespaces
-#  V.0.1, 15.03.2023 initial version, NMUANG
+# Source: https://github.com/andreasmuenster/ghrenamer
 # --------------------------------------------------------------------
  
 import operator
@@ -13,7 +13,7 @@ import ctypes
 import string
  
 # SETTINGS - CHANGE HERE ------------------------------------------------ 
-top_dir = "C:/temp/logger/ABAP-Logger-main/ABAP-Logger-main/"
+top_dir = "c:/temp/myrepository/"
 name_prefix_old = str.upper("Z")
 name_prefix_new = str.upper("/NSP/")
 
